@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video autoplay loop muted id="bgVideo">
+        <source src="video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    
+    <!-- Header Section -->
+    <header>
+        <div class="team-name">Team Core Innovators</div>
+        <nav>
+            <a href="help.html">Help</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <h1>Voter Verification System</h1>
+    <input type="text" id="voterId" placeholder="Enter Voter ID" />
+    <button onclick="startBiometricAuth()">Verify with Biometrics</button>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
